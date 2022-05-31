@@ -17,3 +17,5 @@ const subtraçao =(a,b) => a-b//nao precisou do return
 console.log(subtraçao(2,3))//vai subtrair 2 e 3
 const textoImpresso = a => console.log(a)
 textoImpresso('Ola Mundo')//vai imprimir o texto
+//função arrow com parametro
+const imprimir = a => console.log(a)
