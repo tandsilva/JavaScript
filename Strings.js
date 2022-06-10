@@ -1,5 +1,5 @@
 const escola = "Cod3r";
-console.log(escola.toString())
+console.log(escola.toString())//transforma em string
 console.log(escola.charAt(4))//retorna o caracter da posição 4
 console.log(escola.charCodeAt(3))//retorna o valor da tabela ascii do caracter da posição 3
  console.log(escola.indexOf('3'))//retorna a posição do caracter 3

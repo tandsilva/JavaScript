@@ -6,3 +6,5 @@ console.log(valores)
 valores.push//adiciona um valor no final do array
 valores.pop//remove o ultimo valor do array
 valores.push({id: 3}, false, null, 'teste')//adiciona um objeto no array ele adiciona tudo misturado nao importa o tipo se manda vai tudo cagado
+delete valores[0]//deleta o valor do array
+

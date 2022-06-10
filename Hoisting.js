@@ -25,7 +25,7 @@ function getValor(){
  retornaValor();
  function retornaValor(){
      return 2;
- }//o valor dois foi icado no escopo global se tornando atual
+ }//o valor dois foi icado no escopo global se tornando atualizado
 }
 var resultado = getValor();
 console.log(resultado)//2
