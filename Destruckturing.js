@@ -13,5 +13,17 @@ const {nome: n, idade: i} = pessoa//atribuindo um novo nome para a variavel i e 
 
 const {sobrenome, bemhumorada = true}= pessoa//ela recebe true para ficar dormente na operacao ,para saber que ela nao esta sendo usada
 const {endereco: {logradouro, numero}} = pessoa//desconstrucao do objeto ta aprofundado o como se mergulhassem em um objeto
+console.log(logradouro, numero)//Rua ABC 123
+ 
+//outras formas de desconstrucao
+
+const [a]= [10]//desconstrucao de um array
+console.log(a)//10
+
+const [n1, , n3, , n5] = [10, 7, 9, 8, 6]//desconstrucao de um array
+console.log(n1, n3, n5)//10 9 6
+
+const [, [, nota]] = [[, 8, 8], [9, 6, 8]]//desconstrucao de um array
+console.log(nota)//6
 
 
