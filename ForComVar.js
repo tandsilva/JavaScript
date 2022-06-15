@@ -31,3 +31,4 @@ for(let i = 0;i<10;i++){
 console.log(func[2])//vai imprimir 2 pois o let bloqueia por estar dentro do escopo da funcao
 func1[2]()//vai imprimir 10 pois o i esta dentro do escopo da funcao
 console.log(func[8])//vai imprimir 8 pois o i esta dentro do escopo da funcao
+console.log(i)//erro pois i nao foi inicializado fora, apenas  dentro do escopo
