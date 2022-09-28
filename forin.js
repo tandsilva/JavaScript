@@ -28,3 +28,8 @@ const pessoa = {
 for(atributo in pessoa){
     console.log(`${atributo} = ${pessoa[atributo]}`)
 }
+
+/* git fetch origin master:tmp
+git rebase tmp
+git push origin HEAD:master
+git branch -D tmp */
