@@ -1,4 +1,4 @@
-dobro = (a) =>{
+/* dobro = (a) =>{
     return 2*a
 }
 
@@ -10,3 +10,30 @@ ola = ()=>'ola' //este tipo de sentença so funciona para uma linha
 
 console.log(ola())
 
+
+
+function Pessoa(){
+    this.idade = 0
+
+    const self = this
+    setInterval(function(){
+  /*       self.idade++
+        console.log(self.idade)
+    }/*.bind(this)*///,1000)
+/* }
+new Pessoa
+
+ */ 
+
+   //O setInterval serve para executar 
+   //uma função ou instrução várias vezes 
+   //em um determinado intervalo de tempo 
+
+function Pessoa(){
+    this.idade = 0
+    setInterval(() =>{
+    this.idade++
+    console.log(this.idade)
+} ,1000)
+}
+new Pessoa
