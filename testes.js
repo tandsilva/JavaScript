@@ -1,4 +1,4 @@
-//exercicio1
+/* //exercicio1
 function comprimentar (nome){
     console.log(`ola ${nome}`)
     return nome
@@ -25,4 +25,9 @@ function Calendario (selecionarMes){
    console.log( mes[selecionarMes])
     return mes
 }
-Calendario(1)
+Calendario(1) */
+
+const carrinho=['{nome:Borracha},"preco":3.45}']
+
+carrinho.splice(0,1)
+console.log(carrinho)

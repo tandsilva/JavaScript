@@ -23,7 +23,7 @@ console.log(aprovados)
 console.log(aprovados)
 delete aprovados[1]//a posicao ficara vazia ninguem vem pro lugar 
 
-aprovados.splice(1,1)//o primeiro numero e para dizer onde comeca /ai quantos voce vai derruba dai para phrente
+aprovados.splice(1,1)//o primeiro numero e para dizer onde comeca /ai quantos voce vai derruba dai para frente
 aprovados.splice(1,2,'zeca Cebolera','Corcunda')//apartir do indice 1 vai excluir dois e adcicionar 2
 aprovados.splice(1,0,'alfacao','repolhino')//por o segundo parametro estar zerado ele vai adicionar o que esta em string
 console.log(aprovados)
