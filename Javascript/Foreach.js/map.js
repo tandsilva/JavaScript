@@ -1,11 +1,10 @@
 const numeros = [1,2,3,4,5]
 
-
-//for com proposito
+ 
 
 
 let resultado = numeros.map(function(e){
-    return e*2
+    return e*2//o e nao percorre quem percorre eh o map o(e) eh cada elemento do array o resultado sera [2,4,6,8,10]
 })
 
 console.log(resultado)
