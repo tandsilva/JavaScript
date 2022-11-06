@@ -18,7 +18,7 @@ console.log(lutadores) */
  const algunsLutadores = lutadores.slice(2)//vai criar um novo array copiando o primeiro da onde voce mandou para frente
 console.log(algunsLutadores)
  
-/* const algunsLutadores = lutadores.slice(1,4)//vai peagr entre
+/* const algunsLutadores = lutadores.slice(1,4)//vai pegar entre
 console.log(algunsLutadores)
  */
 

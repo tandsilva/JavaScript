@@ -27,7 +27,14 @@ function Calendario (selecionarMes){
 }
 Calendario(1) */
 
-const carrinho=['{nome:Borracha},"preco":3.45}']
+/* const carrinho=['{nome:Borracha},"preco":3.45}']
 
 carrinho.splice(0,1)
-console.log(carrinho)
+console.log(carrinho) */
+
+let animal = [{type:"leao"},"tigre"]
+let clones = animal.slice()
+clones[0].type = "bear"
+clones[1]="sheep"
+console.log(animal[0].type,clones.type);
+console.log(animal[1],clones[1])
