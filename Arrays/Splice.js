@@ -30,6 +30,28 @@ console.log(aprovados)
 
 
 
+//inverter uma String
+
+function solution(str){
+    return str.split('').reverse().join('');  
+  }
+  console.log(solution('Macaco Sapo'))
+
+
+  function opposite(number) {
+    return number/-1;
+  }
+  console.log(opposite(99))
+
+
+  const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    if (mpg*fuelLeft >= distanceToPump) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
 
 
 
