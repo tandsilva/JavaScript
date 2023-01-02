@@ -10,7 +10,7 @@ function salvarProduto(produto){
     //eh uma verificacao se tiver id blz se nao ele recebe da =sequecia
     if(!produto.id) produto.id = sequence.id
     //se nao estiver previamente setao vai atribuir um elemento dentro de produtos
-    progutos[produto.id] = produto
+    produtos[produto.id] = produto
 
     return produto
 }
