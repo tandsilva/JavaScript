@@ -12,3 +12,10 @@ dobro = (a) =>{
 console.log(dobro(3))
 //ou assim lembrando que esta forma é para funçoes de uma linha (o retun esta implicito obviamente esperado)
 dobro = a => 2*a
+
+
+const soma  =(a,b)=>{
+    return a+b
+    
+}
+console.log(soma(2,3))
