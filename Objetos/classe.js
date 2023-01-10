@@ -4,7 +4,7 @@ class Lancamentos{
         this.valor = valor
     }
 }
-
+//ciclo financeiro eh uma classe com varios methodos dentro
 class CicloFinanceiro{
     constructor(mes,ano){
         this.mes = mes
@@ -12,7 +12,7 @@ class CicloFinanceiro{
         this.planilha =[]
         
     }
-    //que vai receber os parametros e concatenar em um arraya 
+    //que vai receber os parametros e concatenar em um array 
     addlancamentos(...planilha){
         planilha.forEach(l =>this.planilha.push(l))    
     }

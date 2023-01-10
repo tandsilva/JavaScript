@@ -12,3 +12,7 @@ console.log(clone)
 const grupoA =['Joao','Pedro','Matheus']
 const grupoFinal =['Maria', ...grupoA,'Rafael']
 console.log(grupoFinal)
+
+
+
+
