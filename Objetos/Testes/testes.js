@@ -23,3 +23,8 @@ function inverso(valor) {
     return `booleano ou número esperados, mas o parâmetro é do tipo ${tipo}`
     }
     console.log(inverso(false))
+
+    function estaEntre(minimo, maximo, numero, inclusivo = false) {
+        if(inclusivo) return numero >= minimo && numero <= maximo
+        return numero > minimo && numero < maximo
+        }
